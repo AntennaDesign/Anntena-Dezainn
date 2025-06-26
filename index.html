@@ -102,9 +102,15 @@
   <main class="main-title">
     <h1>アンテナデザイン合同会社</h1>
   </main>
-  <header class="header">
- 　 <img src="ANTENNA DESIGN.png" alt="ヘッダー画像" class="header-img">
-　</header>
+  .header-img {
+  width: 100%;      /* 横幅を全体に合わせる */
+  height: 120px;    /* 高さはお好みで */
+  object-fit: cover;/* 画像が帯内で切り取られるようにフィット */
+  display: block;
+  }
+.header {
+  padding: 0;       /* 画像とヘッダーの余白が重複しないよう調整 */
+  }
   <div class="center-content">
     <h3>
       <a href="https://antennadesign.github.io/Antenna-Design/">
