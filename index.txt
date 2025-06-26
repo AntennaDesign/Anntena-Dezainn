@@ -72,7 +72,6 @@
   <main class="main-title">
     <h1>ANTENNA DESIGN</h1>
   </main>
-</body>
 <h1>
   <center>アンテナデザイン合同会社</center>
 </h1>
