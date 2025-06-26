@@ -19,6 +19,13 @@
       margin: 0;
       font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     }
+    .banner-img {
+  width: 100%;         /* 画面の横幅いっぱいに広げる */
+  height: 120px;       /* 高さはお好みで（例：80～150px） */
+  object-fit: cover;   /* 画像が帯にピッタリ収まるように自動調整 */
+  display: block;      /* 画像下の変な隙間対策 */
+  margin: 0 0 20px 0;  /* 画像の下に余白（お好みで） */
+}
 .header {
   display: flex;
   justify-content: space-between;
@@ -102,19 +109,8 @@
   <main class="main-title">
     <h1>アンテナデザイン合同会社</h1>
   </main>
-  <header class="header">
-  <img src="ANTENNA DESIGN.png" alt="ヘッダー画像" class="header-img">
-  <!-- あとはナビやタイトル等 -->
-</header>
-  .header-img {
-  width: 100%;      /* 横幅を全体に合わせる */
-  height: 120px;    /* 高さはお好みで */
-  object-fit: cover;/* 画像が帯内で切り取られるようにフィット */
-  display: block;
-  }
-.header {
-  padding: 0;       /* 画像とヘッダーの余白が重複しないよう調整 */
-  }
+  </main>
+<img src="md_5b37de49cbb70.jpg" alt="帯画像" class="banner-img">
   <div class="center-content">
     <h3>
       <a href="https://antennadesign.github.io/Antenna-Design/">
